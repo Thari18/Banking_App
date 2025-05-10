@@ -2,6 +2,8 @@
 
 accounts={}
 
+print("hello")
+
 def AccountCreation():
     Username = input('Enter new name : ')
     account_number = int(input('New account number is : '))
@@ -79,5 +81,3 @@ while True:
     else:
          print("Invalid Choice!")
          break
-
-
